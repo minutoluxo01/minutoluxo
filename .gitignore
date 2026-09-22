@@ -1,0 +1,40 @@
+# Vercel (vínculo local do projeto — nunca deve ser versionado)
+.vercel
+
+# Dependências (caso o projeto passe a usar alguma no futuro)
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------
+# Material de trabalho não utilizado pela versão publicada do site
+# (arquivos ficam normalmente no disco; apenas não sobem ao Git)
+# ---------------------------------------------------------------
+
+# Fotos brutas do hero/categorias, antes do recorte final
+/Imagem do Codex*.png
+
+# Fotos brutas de alianças (já processadas em assets/images/)
+/aliança reta*.jpeg
+/aliança boleada*.jpeg
+/aliança 3,5mm reta.jpeg
+/alianças catalogo*.HEIC
+
+# Fotos brutas de chaveiros (já processadas em assets/images/)
+/chaveiros 1*.jpeg
+/chaveiros 2*.jpeg
+
+# Imagem de referência de design (mockup usado só para construir o layout)
+assets/images/reference/
+
+# Placeholders antigos (SVG), substituídos pelas fotos reais
+assets/images/placeholders/
+
+# Imagem de card antiga, sem uso — substituída pelas fotos reais dos chaveiros
+assets/images/categoria-personalizados.jpg
