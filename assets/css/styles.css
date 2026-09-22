@@ -500,13 +500,13 @@ a.open-status:hover strong{ color:var(--text); }
   transition:transform 1.1s var(--ease);
 }
 .catalog__photo:hover img{ transform:scale(1.04); }
-/* Modelo com uma única foto: ocupa as duas colunas em formato horizontal */
-.catalog__photo--wide{ grid-column:span 2; position:relative; aspect-ratio:3/2; }
-.catalog__photo--wide img{
-  position:absolute; inset:clamp(6px,.7vw,10px);
-  width:calc(100% - 2 * clamp(6px,.7vw,10px)); height:calc(100% - 2 * clamp(6px,.7vw,10px));
-  aspect-ratio:auto; object-position:50% 56%;
-}
+/* Modelo com uma única foto: ocupa as duas colunas em formato horizontal.
+   Usa o mesmo padrão de fluxo normal das demais fotos do catálogo (em vez de
+   position:absolute dentro de um item de grid com aspect-ratio próprio) —
+   esse padrão antigo podia colapsar para altura zero em alguns navegadores
+   mobile, deixando a imagem invisível mesmo com preço/descrição normais. */
+.catalog__photo--wide{ grid-column:span 2; }
+.catalog__photo--wide img{ aspect-ratio:3/2; object-position:50% 56%; }
 
 .catalog__info{
   display:flex; flex-direction:column; justify-content:center;
