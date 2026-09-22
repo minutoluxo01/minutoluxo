@@ -29,6 +29,21 @@ Thumbs.db
 # Fotos brutas de chaveiros (já processadas em assets/images/)
 /chaveiros 1*.jpeg
 /chaveiros 2*.jpeg
+/chaveiro aço*.jpeg
+/Chaveiro coraçao*.jpeg
+/chaveiro oval*.jpeg
+
+# Fotos brutas de colares/correntes (já processadas em assets/images/)
+/Colar personalizado*.jpeg
+/Corrente olhar*.jpeg
+
+# Fotos brutas de alianças 2mm (já processadas em assets/images/)
+/Aliança de 2mm*.jpeg
+
+# Pastas com fotos brutas organizadas pelo usuário (mesmo conteúdo acima,
+# apenas movido para subpastas — já processado em assets/images/)
+/Alianças/
+/Personalizados/
 
 # Imagem de referência de design (mockup usado só para construir o layout)
 assets/images/reference/
