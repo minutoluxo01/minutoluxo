@@ -169,24 +169,6 @@ svg{ width:100%; height:100%; fill:none; stroke:currentColor; stroke-width:1.2; 
 .topbar__actions{ display:flex; align-items:center; gap:14px; }
 .topbar__left{ display:flex; align-items:center; gap:22px; min-width:0; }
 
-/* Indicador aberto/fechado (preenchido via JS no horário de Pacajus) */
-.open-status{
-  display:inline-flex; align-items:center; gap:9px;
-  font-size:10px; letter-spacing:.2em; text-transform:uppercase;
-  color:var(--muted-dim); white-space:nowrap;
-  transition:color .35s var(--ease);
-}
-.open-status[hidden]{ display:none; }
-.open-status::before{
-  content:""; flex:0 0 auto; width:6px; height:6px; border-radius:50%;
-  background:var(--silver-deep);
-}
-.open-status strong{ font-weight:400; color:var(--muted); }
-.open-status.is-open strong{ color:var(--silver-bright); }
-.open-status.is-open::before{ background:#6fcf8e; box-shadow:0 0 0 3px rgba(111,207,142,.16); }
-.open-status.is-closed::before{ background:#b98a8a; }
-a.open-status:hover strong{ color:var(--text); }
-.open-status--block{ margin:0 0 8px; letter-spacing:.16em; white-space:normal; }
 
 
 /* ------------------------- Header ------------------------- */
@@ -958,7 +940,6 @@ a.open-status:hover strong{ color:var(--text); }
 
 @media (max-width:560px){
   .topbar__tag span:last-child, .topbar__tag .lozenge{ display:none; }
-  .topbar__left .open-status span{ display:none; }
   .brand__name{ font-size:21px; }
   .brand__mark{ height:34px; width:auto; }
 
