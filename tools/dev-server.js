@@ -19,6 +19,8 @@ const TYPES = {
   '.avif': 'image/avif',
   '.woff2': 'font/woff2',
   '.json': 'application/json',
+  '.txt': 'text/plain; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8',
 };
 
 http
@@ -26,22 +28,34 @@ http
     let urlPath = decodeURIComponent(req.url.split('?')[0]);
     if (urlPath === '/') urlPath = '/index.html';
 
-    const file = path.join(ROOT, urlPath);
+    let file = path.join(ROOT, urlPath);
     if (!file.startsWith(ROOT)) {
       res.writeHead(403).end('Forbidden');
       return;
     }
 
-    fs.readFile(file, (err, data) => {
-      if (err) {
-        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Não encontrado');
-        return;
-      }
-      res.writeHead(200, {
-        'Content-Type': TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream',
-        'Cache-Control': 'no-cache',
+    const send = (f) => {
+      fs.readFile(f, (err, data) => {
+        if (err) {
+          res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Não encontrado');
+          return;
+        }
+        res.writeHead(200, {
+          'Content-Type': TYPES[path.extname(f).toLowerCase()] || 'application/octet-stream',
+          'Cache-Control': 'no-cache',
+        });
+        res.end(data);
       });
-      res.end(data);
-    });
+    };
+
+    // Reproduz o "cleanUrls" da Vercel (vercel.json): /aliancas -> aliancas.html
+    // (usa statSync + isFile: no Windows, "personalizados" pode colidir por
+    // case-insensitive com a pasta "Personalizados/" de fotos brutas)
+    const isRealFile = (f) => { try { return fs.statSync(f).isFile(); } catch { return false; } };
+    if (!path.extname(file) && !isRealFile(file)) {
+      const withHtml = file + '.html';
+      if (isRealFile(withHtml)) { send(withHtml); return; }
+    }
+    send(file);
   })
   .listen(PORT, () => console.log('MinutoLuxo → http://localhost:' + PORT));
