@@ -89,3 +89,10 @@ Use **somente avaliações reais**, com autorização do cliente. Exemplo:
 
 Para ver o layout dos cards sem publicar nada, abra a página com `?exemplo` no final do
 endereço: aparecem 3 cards de demonstração marcados como EXEMPLO.
+
+## Painel de edição do catálogo (produtos, preços e fotos)
+
+O dono edita Alianças e Personalizados em `/admin/`, sem mexer em código. O catálogo vive em
+`data/catalog.json`; `aliancas.html` e `personalizados.html` são gerados por `node tools/build-catalog.mjs`
+(trechos entre `CATALOG:START/END` — não editar à mão). Configuração única: `docs/PAINEL-CONFIGURACAO.md`.
+Manual do dono: `docs/PAINEL-MANUAL-DO-DONO.md`.

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Painel MinutoLuxo</title>
+<link rel="icon" href="../favicon.png">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<main id="login" class="login" hidden>
+  <form class="login__box" id="loginForm" autocomplete="on">
+    <p class="brandline">MinutoLuxo <span>Pratas</span></p>
+    <h1>Painel de edição</h1>
+    <p class="muted">Digite a senha para editar produtos, preços e fotos do site.</p>
+    <label class="field">
+      <span>Senha</span>
+      <input type="password" id="password" name="password" autocomplete="current-password" required>
+    </label>
+    <p class="error" id="loginError" role="alert" hidden></p>
+    <button class="btn btn--primary" type="submit" id="loginBtn">Entrar</button>
+  </form>
+</main>
+
+<div id="app" hidden>
+  <header class="top">
+    <div class="top__in">
+      <p class="brandline">MinutoLuxo <span>Painel</span></p>
+      <div class="top__actions">
+        <a class="link" href="/" target="_blank" rel="noopener">Ver o site</a>
+        <button class="link" type="button" id="logout">Sair</button>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Páginas do catálogo"></nav>
+  </header>
+
+  <main class="wrap">
+    <div id="banner" class="banner" role="status" hidden></div>
+    <div id="content"></div>
+  </main>
+
+  <footer class="bar" id="bar">
+    <div class="bar__in">
+      <p id="barText" class="bar__text">Nenhuma alteração.</p>
+      <button class="btn btn--primary" type="button" id="publish" disabled>Publicar alterações</button>
+    </div>
+  </footer>
+</div>
+
+<div class="busy" id="busy" hidden><div class="busy__box"><span class="spinner"></span><p id="busyText">Aguarde…</p></div></div>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>

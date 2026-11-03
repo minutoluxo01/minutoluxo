@@ -1,0 +1,407 @@
+{
+  "aliancas": {
+    "path": "/aliancas",
+    "title": "Alianças",
+    "titleAccent": "em Prata 925",
+    "back": {
+      "text": "Não encontrou o modelo que procura? Fale com a gente — temos outras opções na loja.",
+      "msg": "gostaria de conhecer outros modelos de alianças em Prata 925."
+    },
+    "products": [
+      {
+        "id": "prod25",
+        "eyebrow": "Prata 925",
+        "name": "Par de alianças 2,5mm",
+        "desc": "Alianças lisas de 2,5mm, com a opção de levar junto o solitário.",
+        "photos": [
+          {
+            "src": "assets/images/aliancas-catalogo-01.webp",
+            "alt": "Par de alianças 2,5mm em Prata 925 com solitário, em caixa de veludo vermelho",
+            "width": 900,
+            "height": 1200
+          },
+          {
+            "src": "assets/images/aliancas-catalogo-02.webp",
+            "alt": "Par de alianças 2,5mm em Prata 925 com solitário, vista em ângulo",
+            "width": 900,
+            "height": 1200
+          }
+        ],
+        "options": [
+          {
+            "name": "Par de alianças 2,5mm",
+            "price": 189.99,
+            "msg": "no par de alianças 2,5mm em Prata 925"
+          },
+          {
+            "name": "Par + solitário",
+            "price": 279.99,
+            "msg": "no par de alianças 2,5mm + solitário em Prata 925"
+          }
+        ],
+        "ctaMsg": "nas alianças 2,5mm em Prata 925"
+      },
+      {
+        "id": "prod18",
+        "eyebrow": "Prata 925",
+        "name": "Aliança reta 1,8mm",
+        "desc": "Alianças retas e delicadas de 1,8mm, com a opção do kit com solitário.",
+        "photos": [
+          {
+            "src": "assets/images/aliancas-reta-01.webp",
+            "alt": "Par de alianças retas 1,8mm em Prata 925 com solitário, em caixa de veludo preto",
+            "width": 960,
+            "height": 1280
+          },
+          {
+            "src": "assets/images/aliancas-reta-02.webp",
+            "alt": "Aliança reta 1,8mm em Prata 925 com solitário, na mão",
+            "width": 960,
+            "height": 1280
+          }
+        ],
+        "options": [
+          {
+            "name": "Par de alianças 1,8mm",
+            "price": 169.99,
+            "msg": "no par de alianças retas 1,8mm em Prata 925"
+          },
+          {
+            "name": "Kit aliança + solitário",
+            "price": 269.99,
+            "msg": "no kit aliança reta 1,8mm + solitário em Prata 925"
+          }
+        ],
+        "ctaMsg": "nas alianças retas 1,8mm em Prata 925"
+      },
+      {
+        "id": "prod30",
+        "eyebrow": "Prata 925",
+        "name": "Aliança boleada 3mm",
+        "desc": "Alianças de 3mm com acabamento boleado, com a opção do kit com solitário.",
+        "photos": [
+          {
+            "src": "assets/images/aliancas-boleada-01.webp",
+            "alt": "Aliança boleada 3mm em Prata 925 com solitário, na mão",
+            "width": 960,
+            "height": 1280
+          }
+        ],
+        "options": [
+          {
+            "name": "Par de alianças 3mm",
+            "price": 199.99,
+            "msg": "no par de alianças boleadas 3mm em Prata 925"
+          },
+          {
+            "name": "Kit par + solitário",
+            "price": 289.99,
+            "msg": "no kit par de alianças boleadas 3mm + solitário em Prata 925"
+          }
+        ],
+        "ctaMsg": "nas alianças boleadas 3mm em Prata 925"
+      },
+      {
+        "id": "prod35",
+        "eyebrow": "Prata 925",
+        "name": "Aliança reta 3,5mm",
+        "desc": "Alianças retas de 3,5mm, com a opção do kit com solitário.",
+        "photos": [
+          {
+            "src": "assets/images/aliancas-reta-35-01.webp",
+            "alt": "Aliança reta 3,5mm em Prata 925 com solitário, na mão",
+            "width": 960,
+            "height": 1280,
+            "objectPosition": "50% 50%"
+          }
+        ],
+        "options": [
+          {
+            "name": "Par de alianças 3,5mm",
+            "price": 209.99,
+            "msg": "no par de alianças retas 3,5mm em Prata 925"
+          },
+          {
+            "name": "Kit par + solitário",
+            "price": 299.99,
+            "msg": "no kit par de alianças retas 3,5mm + solitário em Prata 925"
+          }
+        ],
+        "ctaMsg": "nas alianças retas 3,5mm em Prata 925"
+      },
+      {
+        "id": "prod20",
+        "eyebrow": "Prata 925",
+        "name": "Aliança boleada 2mm",
+        "desc": "Alianças de 2mm com acabamento boleado, com a opção do kit com solitário.",
+        "photos": [
+          {
+            "src": "assets/images/aliancas-boleada-2mm-01.webp",
+            "alt": "Par de alianças boleadas 2mm em Prata 925 com solitário, em caixa de veludo",
+            "width": 744,
+            "height": 992
+          },
+          {
+            "src": "assets/images/aliancas-boleada-2mm-02.webp",
+            "alt": "Par de alianças boleadas 2mm em Prata 925 com solitário, na mão",
+            "width": 1200,
+            "height": 1600
+          }
+        ],
+        "options": [
+          {
+            "name": "Par de alianças 2mm",
+            "price": 139.99,
+            "msg": "no par de alianças boleadas 2mm em Prata 925"
+          },
+          {
+            "name": "Kit par + solitário",
+            "price": 229.99,
+            "msg": "no kit par de alianças boleadas 2mm + solitário em Prata 925"
+          }
+        ],
+        "ctaMsg": "nas alianças boleadas 2mm em Prata 925"
+      }
+    ]
+  },
+  "personalizados": {
+    "path": "/personalizados",
+    "title": "Personalizados",
+    "titleAccent": "com gravação",
+    "lead": "Chaveiros e colares com gravação de foto, para presentear ou guardar uma lembrança por perto.",
+    "back": {
+      "text": "A MinutoLuxo também trabalha com copos e outros personalizados — fale com a gente para saber o que está disponível.",
+      "msg": "tenho interesse em outros personalizados, além dos chaveiros."
+    },
+    "products": [
+      {
+        "id": "prodChav1",
+        "eyebrow": "Personalizados",
+        "name": "Chaveiro personalizado",
+        "desc": "Gravação de foto em chaveiro de metal prateado, nos formatos retangular, coração, losango ou redondo.",
+        "photos": [
+          {
+            "src": "assets/images/chaveiro-prata-01.webp",
+            "alt": "Chaveiros personalizados prateados com gravação de foto, em formatos retangular, coração, losango e redondo",
+            "width": 900,
+            "height": 1200
+          },
+          {
+            "src": "assets/images/chaveiro-prata-02.webp",
+            "alt": "Chaveiro personalizado prateado com foto de família gravada",
+            "width": 900,
+            "height": 1200
+          }
+        ],
+        "options": [
+          {
+            "name": "Chaveiro prateado",
+            "price": 89.99,
+            "msg": "no chaveiro personalizado prateado"
+          }
+        ],
+        "ctaMsg": "nos chaveiros personalizados"
+      },
+      {
+        "id": "prodChav2",
+        "eyebrow": "Personalizados",
+        "name": "Chaveiro personalizado dourado",
+        "desc": "Gravação de foto em chaveiro de metal dourado, com pingente extra de coração ou nome.",
+        "photos": [
+          {
+            "src": "assets/images/chaveiro-dourado-01.webp",
+            "alt": "Chaveiros personalizados dourados com gravação de foto e pingente de coração",
+            "width": 900,
+            "height": 1200
+          },
+          {
+            "src": "assets/images/chaveiro-dourado-02.webp",
+            "alt": "Chaveiro personalizado dourado com foto de família gravada e pingente de coração",
+            "width": 900,
+            "height": 1200
+          }
+        ],
+        "options": [
+          {
+            "name": "Chaveiro dourado",
+            "price": 129.99,
+            "msg": "no chaveiro personalizado dourado"
+          }
+        ],
+        "ctaMsg": "no chaveiro personalizado dourado"
+      },
+      {
+        "id": "prodChav3",
+        "eyebrow": "Personalizados",
+        "name": "Chaveiro aço 2,5x2,5cm",
+        "desc": "Chaveiro redondo em aço, 2,5x2,5cm, com gravação de foto na frente e frase no verso.",
+        "photos": [
+          {
+            "src": "assets/images/chaveiro-aco-25-01.webp",
+            "alt": "Chaveiro redondo em aço com gravação de foto, 2,5x2,5cm",
+            "width": 432,
+            "height": 774
+          },
+          {
+            "src": "assets/images/chaveiro-aco-25-02.webp",
+            "alt": "Verso do chaveiro em aço com frase gravada",
+            "width": 432,
+            "height": 774
+          }
+        ],
+        "options": [
+          {
+            "name": "Chaveiro aço 2,5x2,5cm",
+            "price": 74.99,
+            "msg": "no chaveiro em aço 2,5x2,5cm"
+          }
+        ],
+        "ctaMsg": "no chaveiro em aço 2,5x2,5cm"
+      },
+      {
+        "id": "prodChav4",
+        "eyebrow": "Personalizados",
+        "name": "Chaveiro G coração dourado",
+        "desc": "Chaveiro em formato de coração, metal dourado, com gravação de foto na frente e frase no verso.",
+        "photos": [
+          {
+            "src": "assets/images/chaveiro-coracao-dourado-01.webp",
+            "alt": "Chaveiro G coração dourado com gravação de foto",
+            "width": 470,
+            "height": 992
+          },
+          {
+            "src": "assets/images/chaveiro-coracao-dourado-02.webp",
+            "alt": "Verso do chaveiro G coração dourado com frase gravada",
+            "width": 470,
+            "height": 992
+          }
+        ],
+        "options": [
+          {
+            "name": "Chaveiro G coração dourado",
+            "price": 109.99,
+            "msg": "no chaveiro G coração dourado"
+          }
+        ],
+        "ctaMsg": "no chaveiro G coração dourado"
+      },
+      {
+        "id": "prodChav5",
+        "eyebrow": "Personalizados",
+        "name": "Chaveiro oval dourado",
+        "desc": "Chaveiro oval, metal dourado, com gravação de foto na frente e frase no verso.",
+        "photos": [
+          {
+            "src": "assets/images/chaveiro-oval-dourado-01.webp",
+            "alt": "Chaveiro oval dourado com gravação de foto",
+            "width": 444,
+            "height": 992
+          },
+          {
+            "src": "assets/images/chaveiro-oval-dourado-02.webp",
+            "alt": "Verso do chaveiro oval dourado com frase gravada",
+            "width": 444,
+            "height": 992
+          }
+        ],
+        "options": [
+          {
+            "name": "Chaveiro oval dourado",
+            "price": 109.99,
+            "msg": "no chaveiro oval dourado"
+          }
+        ],
+        "ctaMsg": "no chaveiro oval dourado"
+      },
+      {
+        "id": "prodColar1",
+        "eyebrow": "Personalizados",
+        "name": "Colar medalha M dourada",
+        "desc": "Colar com medalha em metal dourado, 45cm, nos formatos redondo ou coração, com gravação de foto na frente e frase no verso.",
+        "photos": [
+          {
+            "src": "assets/images/colar-medalha-dourada-01.webp",
+            "alt": "Colar personalizado medalha M dourada, formato redondo, com gravação de foto",
+            "width": 896,
+            "height": 1195
+          },
+          {
+            "src": "assets/images/colar-medalha-dourada-02.webp",
+            "alt": "Colar personalizado medalha M dourada, formato coração, com gravação de foto",
+            "width": 896,
+            "height": 1195
+          }
+        ],
+        "options": [
+          {
+            "name": "Colar medalha dourada 45cm",
+            "price": 124.99,
+            "msg": "no colar medalha M dourada, 45cm"
+          }
+        ],
+        "ctaMsg": "no colar medalha M dourada"
+      },
+      {
+        "id": "prodColar2",
+        "eyebrow": "Personalizados",
+        "name": "Colar medalha M aço",
+        "desc": "Colar em aço com gravação de foto, nos formatos retangular ou coração.",
+        "photos": [
+          {
+            "src": "assets/images/colar-medalha-aco-01.webp",
+            "alt": "Colar personalizado medalha M em aço, formato retangular, com gravação de foto",
+            "width": 896,
+            "height": 1195
+          },
+          {
+            "src": "assets/images/colar-medalha-aco-02.webp",
+            "alt": "Colar personalizado medalha M em aço, formato coração, com gravação de foto",
+            "width": 896,
+            "height": 1195
+          }
+        ],
+        "options": [
+          {
+            "name": "Colar medalha aço 45cm",
+            "price": 105,
+            "msg": "no colar medalha M aço, 45cm"
+          },
+          {
+            "name": "Colar medalha aço 70cm",
+            "price": 115,
+            "msg": "no colar medalha M aço, 70cm"
+          }
+        ],
+        "ctaMsg": "no colar medalha M aço"
+      },
+      {
+        "id": "prodColar3",
+        "eyebrow": "Personalizados",
+        "name": "Corrente olhar com inicial",
+        "desc": "Corrente com pingente e pingente extra de inicial, em prata.",
+        "photos": [
+          {
+            "src": "assets/images/corrente-olhar-inicial-01.webp",
+            "alt": "Corrente olhar com inicial em prata",
+            "width": 960,
+            "height": 1280
+          }
+        ],
+        "options": [
+          {
+            "name": "Corrente olhar com inicial 45cm",
+            "price": 109.99,
+            "msg": "na corrente olhar com inicial, 45cm"
+          },
+          {
+            "name": "Corrente olhar com inicial 70cm",
+            "price": 119.99,
+            "msg": "na corrente olhar com inicial, 70cm"
+          }
+        ],
+        "ctaMsg": "na corrente olhar com inicial"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# Alternativa ao "colar no painel": npx wrangler deploy (dentro da pasta worker/)
+name = "minutoluxo-admin"
+main = "dist/worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+GITHUB_REPO = "minutoluxo01/minutoluxo"
+GITHUB_BRANCH = "main"
+ALLOWED_ORIGIN = "https://www.minutoluxo.com.br,https://minutoluxo.com.br"
+
+# Segredos (NÃO colocar aqui): npx wrangler secret put ADMIN_PASSWORD | GITHUB_TOKEN | SESSION_SECRET
