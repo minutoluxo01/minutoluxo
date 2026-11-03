@@ -1,2 +1,2 @@
 // Endereço da API do painel (Cloudflare Worker). Vazio = mesmo domínio (usado no teste local).
-export const API_BASE = '';
+export const API_BASE = 'https://minutoluxo-admin.diiegominutoluxo.workers.dev';
