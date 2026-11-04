@@ -30,12 +30,12 @@
         "options": [
           {
             "name": "Par de alianças 2,5mm",
-            "price": 189.99,
+            "price": 209.99,
             "msg": "no par de alianças 2,5mm em Prata 925"
           },
           {
             "name": "Par + solitário",
-            "price": 279.99,
+            "price": 299.99,
             "msg": "no par de alianças 2,5mm + solitário em Prata 925"
           }
         ],
@@ -63,12 +63,12 @@
         "options": [
           {
             "name": "Par de alianças 1,8mm",
-            "price": 169.99,
+            "price": 179.99,
             "msg": "no par de alianças retas 1,8mm em Prata 925"
           },
           {
             "name": "Kit aliança + solitário",
-            "price": 269.99,
+            "price": 279.99,
             "msg": "no kit aliança reta 1,8mm + solitário em Prata 925"
           }
         ],
@@ -90,12 +90,12 @@
         "options": [
           {
             "name": "Par de alianças 3mm",
-            "price": 199.99,
+            "price": 209,
             "msg": "no par de alianças boleadas 3mm em Prata 925"
           },
           {
             "name": "Kit par + solitário",
-            "price": 289.99,
+            "price": 299.99,
             "msg": "no kit par de alianças boleadas 3mm + solitário em Prata 925"
           }
         ],
@@ -118,12 +118,12 @@
         "options": [
           {
             "name": "Par de alianças 3,5mm",
-            "price": 209.99,
+            "price": 229.99,
             "msg": "no par de alianças retas 3,5mm em Prata 925"
           },
           {
             "name": "Kit par + solitário",
-            "price": 299.99,
+            "price": 319.99,
             "msg": "no kit par de alianças retas 3,5mm + solitário em Prata 925"
           }
         ],
@@ -156,7 +156,7 @@
           },
           {
             "name": "Kit par + solitário",
-            "price": 229.99,
+            "price": 239.99,
             "msg": "no kit par de alianças boleadas 2mm + solitário em Prata 925"
           }
         ],
