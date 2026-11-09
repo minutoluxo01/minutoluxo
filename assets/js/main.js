@@ -224,4 +224,26 @@
 
     sections.forEach(function (section) { spy.observe(section); });
   }
+
+  /* ---------------- Rastreamento: cliques no WhatsApp (GA4) ----------------
+     Um único ouvinte cobre todos os links wa.me, inclusive os gerados pelo painel.
+     Envia o evento "whatsapp_click" com o texto do botão, a mensagem (qual produto)
+     e a seção da página. Não envia nada pessoal. */
+  document.addEventListener('click', function (e) {
+    var link = e.target && e.target.closest ? e.target.closest('a[href*="wa.me/"]') : null;
+    if (!link || typeof window.gtag !== 'function') return;
+
+    var message = '';
+    try {
+      message = decodeURIComponent((link.getAttribute('href').split('text=')[1] || '').split('&')[0]);
+    } catch (err) { message = ''; }
+    message = message.replace(/^Olá! Vim pelo site da MinutoLuxo e /, '');
+
+    var holder = link.closest('[id]');
+    window.gtag('event', 'whatsapp_click', {
+      link_text: ((link.textContent || '').replace(/\s+/g, ' ').trim() || link.getAttribute('aria-label') || '').slice(0, 60),
+      link_message: message.slice(0, 100),
+      link_section: holder ? holder.id : ''
+    });
+  });
 })();
